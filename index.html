@@ -5,13 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booleaner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     <!--Header iniziale con classe -->
     <header id="header-style">
-        <h2>The Booleaner</h2>
+        <h2> <span id="span-the">The </span><br>
+            Booleaner
+        </h2>
     </header>
 
     <!-- Inizio del main con foto -->
@@ -19,13 +25,13 @@
         <article>
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
 
-            <div>
-                Scritto da The Booleaner
+            <div id="title-caption">
+                <span id="title-caption-2">Scritto da <span id="title-caption-3">The Booleaner</span></span>
                 <br>
                 il 10/10/2020
             </div>
 
-            <figure>
+            <figure id="figure">
                 <img src="./imgs/tim-1.jpg" alt="Tim Berners-Lee foto conferenza">
                 <img src="./imgs/tim-2.jpg" alt="Tim Berners-Lee foto bella">
                 <figcaption>
@@ -38,8 +44,11 @@
             <!-- Primo paragrafo con evidenziatura -->
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nooummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                ullamcorper suscipit lobortis col ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud <span
+                    class="highlighted-text">exerci
+                    tation
+                    ullamcorper suscipit lobortis col ut aliquip ex ea commodo consequat.</span> Duis autem vel eum
+                iriure dolor in
                 hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
                 vores et accumsan et iusim odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
                 te feugait nulla facilisi
@@ -54,7 +63,7 @@
                     laoreet dolore magna aliquam erat volutpat.</li>
             </ul>
             <!-- Inizio Tabella principale -->
-            <table>
+            <table id="table">
                 <thead class="head-table">
                     <tr>
                         <th>Lorem ipsum dolor</th>
@@ -70,7 +79,7 @@
                             consectetur ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a
                             quia modi. Totam saepe quibusdam natus harum.</td>
                     </tr>
-                    <tr class="body-table">
+                    <tr>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos quo, placeat
@@ -91,20 +100,26 @@
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                 laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
                 ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                in hendrerit in vulputate velit esse molestie consequat, vel <span class="highlighted-text">illum dolore
+                    eu feugiat nulla
+                    facilisis at
+                    vero eros et accumsan et iusto </span>odio dignissim qui blandit praesent luptatum zzril delenit
+                augue duis
                 dolore te feugait nulla facilisi.
             </p>
 
         </article>
     </main>
     <!-- Footer con immagini -->
-    <footer>
-        <figure>
-            <figcaption>
+    
+        <figure id="figure-2">
+            <figcaption id="figcaption">
                 Potrebbero interessarti
             </figcaption>
+            <div class="image">
             <img src="./imgs/monitor.jpg" alt="Monitor su scrivania con led rosa"> <br>
+            <p id="image-text">lorem ipsum dolor</p>
+            </div>
             <img src="./imgs/graph.jpg" alt="Grafico morti">
         </figure>
     </footer>
